@@ -265,6 +265,10 @@ img {
   display: none;
 }
 
+.block {
+  display: block;
+}
+
 .inline {
   display: inline-block;
 }
@@ -1273,24 +1277,6 @@ h1 span {
   border-radius: 50%;
 }
 
-#contactform {
-  width: 60%;
-  margin: 0 auto;
-}
-
-#contactform p {
-  margin: 1em 0 0;
-  color: #84868D;
-}
-
-#contactform a {
-  color: #84868D;
-  text-decoration: underline;
-}
-
-#contactform p + p {
-  margin-top: 2px;
-}
 /*-----------------------
 ::Footer
 -----------------------*/
@@ -1385,10 +1371,6 @@ footer {
   }
   .timeline h4 {
     margin-top: 0;
-  }
-  #contactform {
-    width: 98%;
-    margin: 0 auto;
   }
 }
 
